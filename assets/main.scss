@@ -3,12 +3,14 @@
 
 $text-color: #46433A;
 $anchor-text-color: #CE534D;
-$background-color: #F1EED9;
+$background-color: #FFFFFF;
 
 body {
 	font-family: 'Vollkorn', serif;
 	color: $text-color;
 	background-color: $background-color;
+	background-image:url('/images/map.jpg');
+  background-size:100%,100%;
 }
 
 header,
@@ -38,8 +40,8 @@ a:hover {
 /*** main content list ***/
 .main-list-item {
 	font-weight: bold;
-	font-size: 1.2em;
-	margin: 0.8em 0;
+	font-size: 1.1em;
+	margin: 0.5em 0;
 }
 
 /* override the left margin added by font awesome for the main content list,
@@ -122,10 +124,10 @@ footer {
 
 /* All other devices (768px and up) */
 @media (min-width: 768px) {
-	/* past 768px the layout is changed and the wrapper has a fixed width of 680px
+	/* past 768px the layout is changed and the wrapper has a fixed width of 720px
 	to accomodate both the header column and the content column */
 	.wrapper {
-		width: 680px;
+		width: 720px;
 	}
 
 	/* the header column stays left and has a dynamic width with all contents
