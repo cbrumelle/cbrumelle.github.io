@@ -1,6 +1,6 @@
 # general configuration
 url: http://mixedcontent.com
-baseurl: 'http://mixedcontent.com'
+baseurl: ''
 
 # compass configuration
 compass:
