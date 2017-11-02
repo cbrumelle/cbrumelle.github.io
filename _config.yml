@@ -25,4 +25,4 @@ highlighter: pygments
 # Permalinks a
 permalink: pretty
 
-include: ".well_known"
+include: ".well-known"
