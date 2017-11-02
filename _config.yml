@@ -1,5 +1,5 @@
 # general configuration
-url: http://mixedcontent.com
+url: https://mixedcontent.com
 baseurl: ''
 
 # compass configuration
@@ -24,4 +24,3 @@ highlighter: pygments
 
 # Permalinks a
 permalink: pretty
-relative_permalinks: true
